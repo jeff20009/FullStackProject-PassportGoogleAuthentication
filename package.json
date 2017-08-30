@@ -10,12 +10,15 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie-session": "^2.0.0-beta.2",
+    "es6-promise": "^4.1.1",
     "express": "^4.15.3",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^4.11.9",
     "nodemon": "^1.11.0",
     "passport": "^0.3.2",
     "passport-google-oauth20": "^1.0.0"
