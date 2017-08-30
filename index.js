@@ -6,7 +6,10 @@ const mongoose = require('mongoose');
 // const cookieSession = require('cookie-session');
 const passport = require('passport');
 const keys = require('./config/keys');
-// change the order of the operation
+// require('./models/User');
+// require('./models/Survey');
+
+
 // require('./models/User');
 require('./services/passport');
 
